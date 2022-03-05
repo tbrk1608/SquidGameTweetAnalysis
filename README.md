@@ -20,6 +20,6 @@ Used two different lexicon-based approaches for sentiment analysis. TextBlob and
 
 **Prediction Models:**<br>
 Built a Classification model for Sentiment analysis. Used the output form lexicon analysis (only the positive and negative sentiments) and generated tf-idf vectors. 
-The dimensions of tf-idf vectors are reduced from 20000 to 8000 features explaining 95% variance of the data. The reduced vectors are then used to train the prediction models - Random Forests and SVM algorithms. SVM gave better results compared to that of Random Forests with an accuracy of 98%, while with RF the accuracy was nearly 75%.
+The dimensions of tf-idf vectors are reduced from 20000 to 8000 features explaining 95% variance of the data. The reduced vectors are then used to train the prediction models - Random Forests and SVM algorithms. SVM gave better results compared to that of Random Forests with an accuracy of 92%, while with RF the accuracy was nearly 75%.
 
 ![Res](https://github.com/tbrk1608/SquidGameTweetAnalysis/blob/main/viz/3.png?raw=true)
